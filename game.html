@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quize app</title>
+    <link rel="stylesheet" href="game.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_box" id="main">
+        <h2 class="question">Answer this question</h2>
+        <ul class="option">
+          <li>
+            <input type="radio" name="answer" id="ans1" class="select" />
+            <label for="ans1" id="op1">op1</label>
+          </li>
+          <li>
+            <input type="radio" id="ans2" name="answer" class="select" />
+            <label for="ans2" id="op2">op2</label>
+          </li>
+          <li>
+            <input type="radio" id="ans3" name="answer" class="select" />
+            <label for="ans3" id="op3">op3</label>
+          </li>
+          <li>
+            <input type="radio" id="ans4" name="answer" class="select" />
+            <label for="ans4" id="op4">op4</label>
+          </li>
+        </ul>
+        <button class="btn">Next</button>
+        <div id="score" class="scorearea"></div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
